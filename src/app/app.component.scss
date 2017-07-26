@@ -1,0 +1,11 @@
+@media (max-width: 730px) {
+    .col-xs-12 {
+        .nav {
+            text-align: center;
+            li {
+                display: inline-block!important;
+                width: auto !important;
+            }
+        }
+    }
+}

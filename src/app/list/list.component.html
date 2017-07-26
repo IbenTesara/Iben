@@ -1,0 +1,7 @@
+<div class="row" class="list">
+    <div (click)="callParent(item)" *ngFor="let item of list" [ngClass]="{'active' : item === selectedItem}" class="item">
+        <div class="row">
+            <img class="list-image" src="{{item.images[0]}}" alt="{{item.name}}">
+        </div>
+    </div>
+</div>

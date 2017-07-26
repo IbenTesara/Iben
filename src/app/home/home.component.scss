@@ -1,0 +1,62 @@
+.web {
+    background-image: url(../../assets/images/cover_web_a.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    &:hover {
+        background-image: url(../../assets/images/cover_web.png);
+    }
+}
+
+.mobile {
+    background-image: url(../../assets/images/cover_mobile_a.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    &:hover {
+        background-image: url(../../assets/images/cover_mobile.png);
+    }
+}
+
+.games {
+    background-image: url(../../assets/images/cover_games_a.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    &:hover {
+        background-image: url(../../assets/images/cover_games.png);
+    }
+}
+
+.desktop {
+    background-image: url(../../assets/images/cover_desktop_a.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    &:hover {
+        background-image: url(../../assets/images/cover_desktop.png);
+    }
+}
+
+.grey {
+    background-color: grey;
+}
+
+.detail-block {
+    border: 0.5px solid #14191e;
+    .row {
+        position: absolute;
+        bottom: 0px;
+        text-align: center;
+        width: 100%;
+        text-transform: uppercase;
+        background: rgba(41, 41, 41, 0.6);
+        height: 15%;
+        font-size: large;
+        font-weight: bold;
+        padding-top: 1em;
+        p {
+            color: white;
+        }
+    }
+    &:hover {
+        cursor: pointer;
+        border-bottom: 2px solid #fb0044;
+    }
+}

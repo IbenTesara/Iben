@@ -1,0 +1,10 @@
+@media (max-width: 730px) {
+  /* line 3, /Users/ibenvandeveire/Documents/Front-End/Iben/src/app/app.component.scss */
+  .col-xs-12 .nav {
+    text-align: center; }
+    /* line 5, /Users/ibenvandeveire/Documents/Front-End/Iben/src/app/app.component.scss */
+    .col-xs-12 .nav li {
+      display: inline-block !important;
+      width: auto !important; } }
+
+/*# sourceMappingURL=app.component.css.map */

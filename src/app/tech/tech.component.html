@@ -1,0 +1,17 @@
+<div class="row">
+    <div *ngFor="let spec of specs" class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+        <div class="row">
+            <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                <img src="{{spec.icon}}" class="spec-icon" alt="{{spec.name}}">
+            </div>
+            <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8">
+                <div class="row">
+                    {{spec.name}}
+                </div>
+                <div class="row">
+                    {{spec.rate}}/5
+                    </div>
+            </div>
+        </div>
+    </div>
+</div>

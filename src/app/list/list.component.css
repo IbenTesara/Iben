@@ -1,0 +1,25 @@
+/* line 4, /Users/ibenvandeveire/Documents/Front-End/Iben/src/app/list/list.component.scss */
+.list {
+  width: 100%;
+  overflow-x: hidden;
+  overflow-y: scroll; }
+  /* line 8, /Users/ibenvandeveire/Documents/Front-End/Iben/src/app/list/list.component.scss */
+  .list .item {
+    text-align: center;
+    padding: 10%; }
+    /* line 11, /Users/ibenvandeveire/Documents/Front-End/Iben/src/app/list/list.component.scss */
+    .list .item img {
+      width: 90%;
+      filter: grayscale(100); }
+      /* line 14, /Users/ibenvandeveire/Documents/Front-End/Iben/src/app/list/list.component.scss */
+      .list .item img:hover {
+        filter: none; }
+    /* line 18, /Users/ibenvandeveire/Documents/Front-End/Iben/src/app/list/list.component.scss */
+    .list .item:hover {
+      cursor: pointer; }
+
+/* line 25, /Users/ibenvandeveire/Documents/Front-End/Iben/src/app/list/list.component.scss */
+.active img {
+  filter: none !important; }
+
+/*# sourceMappingURL=list.component.css.map */

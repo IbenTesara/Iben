@@ -1,0 +1,20 @@
+/* line 1, /Users/ibenvandeveire/Documents/Front-End/Iben/src/app/web/web.component.scss */
+.content {
+  padding: 0px;
+  height: 100%; }
+
+/* line 6, /Users/ibenvandeveire/Documents/Front-End/Iben/src/app/web/web.component.scss */
+list {
+  border-top: 2px solid #14191e; }
+
+/* line 10, /Users/ibenvandeveire/Documents/Front-End/Iben/src/app/web/web.component.scss */
+detail {
+  height: 100%; }
+
+/* line 14, /Users/ibenvandeveire/Documents/Front-End/Iben/src/app/web/web.component.scss */
+.list-block {
+  text-align: center;
+  background: #14191e;
+  overflow-y: scroll; }
+
+/*# sourceMappingURL=web.component.css.map */

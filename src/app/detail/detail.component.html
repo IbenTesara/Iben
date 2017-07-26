@@ -1,0 +1,26 @@
+<div class="row padding-15 overflow-y">
+    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+        <div class="row">
+            <h1>{{item.name}}</h1>
+        </div>
+        <div class="row">
+            <p class="label">Customer</p>
+            <p>{{item.customer}}</p>
+            <p class="label">Employer</p>
+            <p>{{item.corp}}</p>
+            <p class="label">Frameworks used</p>
+            <br/>
+            <p *ngFor="let framework of item.frameworks" style="display: inline-block">{{framework}} <span *ngIf="!$last">-</span> </p>
+        </div>
+        <div class="row description">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                <div class="row">
+                    <p>{{item.descr_short}}</p>
+                </div>
+                <div class="row">
+                    <img class="detail-image" *ngFor="let image of item.images" src="{{image}}" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

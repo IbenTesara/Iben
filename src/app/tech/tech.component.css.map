@@ -1,0 +1,9 @@
+{
+  "version": 3,
+  "file": "tech.component.css",
+  "sources": [
+    "tech.component.scss"
+  ],
+  "mappings": ";AAAA,AAAA,UAAU,CAAC;EACP,KAAK,EAAE,IAAK,GACf",
+  "names": []
+}

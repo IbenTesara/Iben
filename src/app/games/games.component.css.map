@@ -1,0 +1,9 @@
+{
+  "version": 3,
+  "file": "games.component.css",
+  "sources": [
+    "games.component.scss"
+  ],
+  "mappings": ";AAEA,AAAA,EAAE,CAAA;EACC,cAAc,EAAE,SAAU;EAC1B,WAAW,EAAE,IAAK;EAClB,KAAK,EALE,OAAO;EAMb,OAAO,EAAE,KAAM;EACf,UAAU,EAAE,MAAO,GACtB",
+  "names": []
+}

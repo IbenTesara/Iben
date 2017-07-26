@@ -1,0 +1,9 @@
+{
+  "version": 3,
+  "file": "mobile.component.css",
+  "sources": [
+    "mobile.component.scss"
+  ],
+  "mappings": ";AAAA,AAAA,QAAQ,CAAC;EACL,OAAO,EAAE,GAAI;EACb,MAAM,EAAE,IAAK,GAChB;;;AAED,AAAA,IAAI,CAAA;EACA,UAAU,EAAE,iBAAkB,GACjC;;;AAED,AAAA,MAAM,CAAA;EACF,MAAM,EAAE,IAAK,GAChB;;;AAED,AAAA,WAAW,CAAA;EACP,UAAU,EAAE,MAAO;EACnB,UAAU,EAAE,OAAQ;EACpB,UAAU,EAAE,MAAO,GACtB",
+  "names": []
+}

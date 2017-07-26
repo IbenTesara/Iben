@@ -1,0 +1,81 @@
+$primary: #fb0044;
+$secondary: #88BBD6;
+$background_primary: #14191e;
+$background_secondary: #e6e6E6;
+$tertiary: #2a2a2a;
+.photo {
+    height: 280px;
+}
+
+.image-small {
+    width: 80px;
+    height: auto;
+}
+
+h1 {
+    text-align: right;
+    text-transform: uppercase;
+    padding-right: 15px;
+    color: $primary;
+}
+
+h2 {
+    text-transform: uppercase;
+    font-size: 20px;
+    text-align: left;
+    font-weight: bold;
+    color: $primary;
+}
+
+h3 {
+    font-size: 15px;
+    font-weight: bolder;
+}
+
+.row {
+    text-align: center;
+}
+
+.about-me {
+    text-align: justify;
+    font-weight: 400;
+    font-size: 12px;
+    strong{
+        color: $primary;
+    }
+}
+
+.about-me-content {
+    color: white;
+    background: $background_primary;
+    padding-right: 15px;
+    border-bottom: 2px solid $primary;
+}
+
+.work {
+    .image-small {
+        border-bottom: 2px solid $primary;
+    }
+}
+
+.image-holder {
+    text-align: left;
+    padding-left: 0px;
+}
+
+i {
+    color: $primary;
+}
+
+@media (max-width: 730px) {
+    .image-holder{
+        text-align: center !important;
+    }
+    h1{
+        text-align: center !important;
+    }
+
+    .skills{
+        margin-bottom: 100px;
+    }
+}

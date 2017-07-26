@@ -1,0 +1,79 @@
+/* You can add global styles to this file, and also import other style files */
+/* line 8, /Users/ibenvandeveire/Documents/Front-End/Iben/src/styles.scss */
+.container {
+  background-color: #14191e;
+  padding: 20px;
+  padding-top: 0px;
+  width: 70%; }
+
+/* line 16, /Users/ibenvandeveire/Documents/Front-End/Iben/src/styles.scss */
+.nav li {
+  width: 100%;
+  font-size: 20px;
+  height: 50px;
+  padding: 15px;
+  padding-left: 25px;
+  color: #fb0044;
+  text-transform: uppercase;
+  text-align: center; }
+  /* line 25, /Users/ibenvandeveire/Documents/Front-End/Iben/src/styles.scss */
+  .nav li:hover {
+    color: #ff2f67;
+    cursor: pointer; }
+
+/* line 32, /Users/ibenvandeveire/Documents/Front-End/Iben/src/styles.scss */
+.nav-col {
+  padding: 0px; }
+
+/* line 36, /Users/ibenvandeveire/Documents/Front-End/Iben/src/styles.scss */
+body {
+  background: #14191e;
+  color: #2a2a2a;
+  font-family: 'Roboto', sans-serif;
+  height: 100%; }
+
+/* line 43, /Users/ibenvandeveire/Documents/Front-End/Iben/src/styles.scss */
+.main-content {
+  background-color: #e6e6E6;
+  height: 100%;
+  padding: 0px;
+  overflow-y: scroll;
+  overflow-x: hidden; }
+  /* line 49, /Users/ibenvandeveire/Documents/Front-End/Iben/src/styles.scss */
+  .main-content app-about {
+    padding: 15px; }
+
+/* line 54, /Users/ibenvandeveire/Documents/Front-End/Iben/src/styles.scss */
+html {
+  height: 100%;
+  overflow: hidden; }
+
+/* line 59, /Users/ibenvandeveire/Documents/Front-End/Iben/src/styles.scss */
+app-root {
+  height: 100%; }
+
+/* line 63, /Users/ibenvandeveire/Documents/Front-End/Iben/src/styles.scss */
+.overflow-y {
+  overflow-y: scroll; }
+
+/* line 67, /Users/ibenvandeveire/Documents/Front-End/Iben/src/styles.scss */
+.fixed-bottom {
+  bottom: 0;
+  width: 100%;
+  position: absolute; }
+
+/* line 73, /Users/ibenvandeveire/Documents/Front-End/Iben/src/styles.scss */
+.width-100 {
+  width: 100%; }
+
+/* line 77, /Users/ibenvandeveire/Documents/Front-End/Iben/src/styles.scss */
+.padding-15 {
+  padding: 15px; }
+
+@media (max-width: 730px) {
+  /* line 82, /Users/ibenvandeveire/Documents/Front-End/Iben/src/styles.scss */
+  .main-content {
+    padding: 10px !important;
+    padding-top: 0px !important; } }
+
+/*# sourceMappingURL=styles.css.map */
